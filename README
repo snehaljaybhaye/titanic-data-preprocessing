@@ -1,0 +1,88 @@
+# Titanic Dataset Preprocessing 🧹🚢
+
+This repository showcases data preprocessing techniques applied to the famous **Titanic dataset**. The goal is to clean, transform, and prepare the data for further analysis or machine learning modeling.
+
+---
+
+## 🧠 Objective
+
+To demonstrate essential data preprocessing skills using Python, including:
+
+- Handling missing data
+- Removing duplicate records
+- Encoding categorical variables
+- Feature scaling (normalization and standardization)
+- Outlier detection using the IQR method
+
+---
+
+## 📂 Repository Contents
+
+- `titanic_preprocessing.ipynb` — Jupyter Notebook with step-by-step preprocessing.
+- `titanic_transformed.csv` — Final cleaned Titanic dataset in CSV format.
+- `requirements.txt` — Python libraries used in the notebook.
+- `README.md` — Project overview and documentation.
+
+---
+
+## 📊 Dataset Source
+
+This project uses the publicly available Titanic dataset:
+
+🔗 [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic/data?select=train.csv)
+
+---
+
+## 🛠️ Tools and Libraries Used
+
+- Python 🐍
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- scikit-learn
+
+---
+
+## ✅ Preprocessing Workflow
+
+### 1. Load the Dataset
+- Loaded using `pandas` or `seaborn` for quick access
+- Explored first few rows
+
+### 2. Handle Missing Values
+- Dropped columns with more than 50% missing data
+- Filled numeric columns with median
+- Filled categorical columns with the most frequent value (mode)
+
+### 3. Remove Duplicate Rows
+- Checked for and removed duplicate entries
+
+### 4. Encode Categorical Variables
+- Used one-hot encoding for categorical features
+- Converted boolean columns to 0/1
+
+### 5. Feature Scaling
+- Applied Min-Max Scaling to numeric columns
+- Also compared results using Standard Scaler
+
+### 6. Outlier Detection (IQR Method)
+- Calculated IQR for key features
+- Removed or capped outliers based on the 1.5 * IQR rule
+
+---
+
+## 🌟 Highlights
+
+This project is a great starting point to:
+
+- Build a strong data science foundation
+- Showcase preprocessing skills on GitHub
+- Reuse this template for future datasets or ML projects
+
+---
+
+## 📬 Feedback
+
+Feel free to ⭐ star this repo or [connect with me](https://www.linkedin.com/in/snehal-jaybhaye-039a13340) if you have suggestions or want to collaborate!
+
